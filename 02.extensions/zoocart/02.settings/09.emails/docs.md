@@ -6,15 +6,15 @@ taxonomy:
 
 ![Emais Template Manager](emails-template.png)
 
-In the Settings Emails tab upper right corner is the **Email Templates Manager** button, leading to the view where you can manage you can create new email notification templates or manage existing ones with the following options:
+In the Settings Emails tab  in the upper right corner is the **Email Templates Manager** button, leading to the view where you can create new email notification templates or manage existing ones with the following options:
 
 ![Emails page](emails.png)
 
 | Field       | Description |
 | :---------- | :---------- |
 | **Type** | The template email type. |
-| **Language** | The language for which the template will be applied to. |
-| **User Groups** | The User Groups to which the email will be send to. |
+| **Language** | The language the template will be applied to. |
+| **User Groups** | The User Groups the email will be sent to. |
 | **Subject** | The email subject. |
 | **CC** | Carbon Copy, send a copy of each email to another address. Separate multiple addresses with commas. |
 | **BCC** | Blind Carbon Copy, same as Carbon Copy but with recipient email hidden. Use this option if you don't want other recipients to know an email copy is being sent somewhere else. |
