@@ -11,7 +11,7 @@ When adding the Element to a Type, the following configuration is available unde
 | Field       | Description |
 | :---------- | :---------- |
 | Enabled by default | The product state, when enabled all Type products will be allowed for purchase. If disabled, the product should be individually enabled on the **Item Edit** view. |
-| Item Type | The product Type. Can be **Product**, physical good that requires shipping, **Digital**, digital good that does not require shipping or **Subscription**, a special product that would create a subscription after checkout. |
+| Item Type | The product Type. Can be a **Product**, a physical good that requires shipping, **Digital**,a digital good that does not require shipping or a **Subscription**, a special product that would create a subscription after checkout. |
 
 When setting the Element in a position for rendering, the following configuration is available under the **Layout** section:
 
