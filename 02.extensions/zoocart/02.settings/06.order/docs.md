@@ -7,7 +7,7 @@ taxonomy:
 | Field       | Description |
 | :---------- | :---------- |
 | **Order Prefix** | The text that will be prefixed to the Order number. |
-| **Minimal Order Amount** | The minimum total cart amount required to process the Order. For no limits leave this param empty or as O. |
+| **Minimal Order Amount** | The minimum total cart amount required to process the Order. For no limits leave this param empty or set to O. |
 | **Update Quantities Order State** | The Order state that should be reached before updating the product stock. |
 | **New Orders State** | The Order state that will be applied to the newly created orders. |
 | **Payment Received State** | The Order state that will be applied to the order when a payment is received. |
@@ -20,7 +20,7 @@ taxonomy:
 
 ![Order states](orders.png)
 
-In the Settings Order tab upper right corner is the **Order States Manager** button, leading to the view where you can create new states or manage existing ones with the following options:
+In the Settings Order tab in the upper right corner is the **Order States Manager** button, leading to the view where you can create new states or manage existing ones with the following options:
 
 | Field       | Description |
 | :---------- | :---------- |
