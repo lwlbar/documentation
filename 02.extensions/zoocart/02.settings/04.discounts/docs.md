@@ -4,12 +4,12 @@ taxonomy:
     category: docs
 ---
 
-These options apply if your store offer coupon discounts.
+These options apply if your store offers coupon discounts.
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Allow discounts** | If enabled discounts field will be displayed in the cart view and processed if discount coupon is provided. |
-| **Apply discount before tax** | If enabled discount will be applied for the tax free price, otherwise after tax calculations. |
+| **Allow discounts** | If enabled, the discounts field will be displayed in the cart view and processed if a discount coupon is provided. |
+| **Apply discount before tax** | If enabled, the discount will be applied for the tax free price, otherwise it is applied after tax calculations. |
 
 ## Discounts Manager
 
@@ -22,7 +22,7 @@ Under _ZOOlanders component / ZOOcart / Discounts_ find the **Discounts Manager*
 | **Name** | The coupon name. |
 | **Status** | The coupon status, enabled or disabled. |
 | **Coupon Code** | The coupon code, the code that you should provide to your clients. |
-| **Discount Type** | The coupon discount type, fixed amount or percentage from total sum. |
+| **Discount Type** | The coupon discount type, a fixed amount or a percentage of the total sum. |
 | **Discount** | The coupon discount amount, fixed value or percentage depending of the Discount Type setting. |
 | **Valid From** | The coupon publication start date. |
 | **Valid To** | The coupon publication end date. |
