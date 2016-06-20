@@ -4,13 +4,13 @@ taxonomy:
     category: docs
 ---
 
-In the currency section there is only one option, the **Default Currency**, which allows you to choose the store currency which will as well be the default currency if the store offer multi-currency.
+In the currency section there is only one option, the **Default Currency**, which allows you to choose the store currency which will become the default currency if the store offers multi-currency.
 
 ## Currencies Manager
 
 ![Currencies Manager](currencies.png)
 
-In the Settings Currencies tab upper right corner is the **Currencies Manager** button, leading to the view where you can create new Currencies or manage existing ones with the following options:
+In the Settings Currencies tab inthe upper right corner is the **Currencies Manager** button, leading to the view where you can create new Currencies or manage existing ones with the following options:
 
 | Field       | Description |
 | :---------- | :---------- |
