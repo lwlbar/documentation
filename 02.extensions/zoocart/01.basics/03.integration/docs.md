@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-Unless your **App** has been created using our demo site, few integrations steps are required. No matter if you are extending an existing **Item Type** or creating a new one, add to it the ZOOcart basic elements **PricePro** and **ZOOcart**, optionally you can add the **Quantity**, **Variations** and **Measures Pro** from the **ZOOcart Element Library** block. You can leave the configuration and other elements for later, will be reviewing them in detail in the following sections.
+Unless your **App** has been created using our demo site, a few integrations steps are required. This can be done if you are extending an existing **Item Type** or creating a new one.  First add to your item type the ZOOcart basic elements **PricePro** and **ZOOcart**, optionally you can add the **Quantity**, **Variations** and **Measures Pro** from the **ZOOcart Element Library** block. You can leave the configuration and other elements for later, we will be reviewing them in detail in the following sections.
 
 ![Edit Elements](edit-elements.png)
 
@@ -12,7 +12,7 @@ Unless your **App** has been created using our demo site, few integrations steps
 
 ## Elements Assignment
 
-Now that the elements are part of the product type we can assign them to a rendering position. Assuming we want to render the three of them in the Item full view, access the Full layout edit view and assign each element to one position. Again, leave the configuration as default.
+Now that the elements are part of the product type we can assign them to a rendering position. Assuming we want to render the three of them in the Item full view, access the Full layout edit view and assign each element to one position. For this explanation, leave the configuration as default.
 
 ![Render Layouts](render-layouts.png)
 
@@ -20,23 +20,23 @@ Now that the elements are part of the product type we can assign them to a rende
 
 ## Store Layouts
 
-**ZOOcart** has it's own **Cart** and **Order** render layouts that allows to fine tune the Item row rendering in the Cart/Order table. As you would do with any other render layout, just Drag and Drop the desired elements to the appropriate position.
+**ZOOcart** has it's own **Cart** and **Order** render layouts that allows you to fine tune the Item row rendering in the Cart/Order table. As you would do with any other render layout, just Drag and Drop the desired elements to the appropriate position.
 
 ![Store Layouts](store-layouts.png)
 
->>>>> You can optionally skip this configuration and the default row would be rendered instead.
+>>>>> You can optionally skip this configuration and the default layout would be rendered instead.
 
 ## Subscriptions
 
-A **Subscription** is a product for which, after the Order has been completed, a subscription will be created and associated. You can choose the product type under the [ZOOcart element configuration](/extensions/zoocart/basics/settings#zoocart).
+A **Subscription** is a product for which, after the Order has been completed, a subscription will be created and mapped. You can choose the product type under the [ZOOcart element configuration](/extensions/zoocart/basics/settings#zoocart).
 
-A Subscription product requires a duration, which could be set with a **Text/Pro** or **Select/Radio** elements and then mapped for letting know ZOOcart where to get the value from. The mapping can be set on the **ZOOcart mapping: Subscription** layout under the Type views configuration.
+A Subscription product requires a duration, which could be set with a **Text/Pro** or **Select/Radio** elements and then mapped for letting ZOOcart know where to get the value from. The mapping can be set on the **ZOOcart mapping: Subscription** layout under the Type views configuration.
 
 >>>>> You can override the Subscription duration with [Variations](/extensions/zoocart/advanced/variations) if the product has several subscription options.
 
 ## Menu Assignment
 
-There are several store views that you can assign to a **Joomla! Menu** and make your store easily accessible. The process is very simple:
+There are several store views that you can assign to a **Joomla! Menu** and make your store more easily accessible. The process is very simple:
 
 1. Start by adding a new Menu Item as usual in Joomla.
 2. From the available Menu Types select **ZOOladers / Extension View**.
@@ -48,4 +48,4 @@ There are several store views that you can assign to a **Joomla! Menu** and make
 
 ## Cart and Minicart
 
-**ZOOcart Module** can optionally be set to display the **Cart** (default layout) or **Minicart**. Both ajax ready carts that can be rendered anywhere showing the Cart products and related information. Find more about its options in the [configuration](/extensions/zoocart/basics/settings#zoocart-module) section.
+**ZOOcart Module** can optionally be set to display the **Cart** (default layout) or **Minicart**. Both are ajax ready carts that can be rendered anywhere showing the Cart products and related information. Find out more about its options in the [configuration](/extensions/zoocart/basics/settings#zoocart-module) section.
