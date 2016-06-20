@@ -19,7 +19,7 @@ Click the layout name to manage its fields.
 
 ![Setup Address Layouts](addresses-layouts.png)
 
-Address layout can be set like any other ZOO layout, Drag and Dropping the elements which will represent the Address fields. Be sure to set the corresponding **Billing information** parameter for each element.
+The Address layout can be set like any other ZOO layout, by dragging and dropping the elements you want to represent the Address fields. Be sure to set the corresponding **Billing information** parameter for each element.
 
 ![Address Edit Elements](addresses-elements.png)
 
